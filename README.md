@@ -115,4 +115,5 @@ Feedstock Maintainers
 =====================
 
 * [@andersy005](https://github.com/andersy005/)
+* [@matt-long](https://github.com/matt-long/)
 
