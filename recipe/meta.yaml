@@ -22,10 +22,10 @@ requirements:
     - setuptools >=30.3.0
     - setuptools_scm
   run:
-    - dask-core
-    - dask-jobqueue
+    - dask-core >=2.14
+    - dask-jobqueue >=0.7.1
     - jinja2
-    - python
+    - python >=3.6
     - pyyaml
 
 test:
@@ -45,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - andersy005
+    - matt-long
