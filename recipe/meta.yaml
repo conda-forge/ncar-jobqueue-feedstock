@@ -1,5 +1,5 @@
 {% set name = "ncar-jobqueue" %}
-{% set version = "2020.12.4" %}
+{% set version = "2021.2.10" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ncar-jobqueue-{{ version }}.tar.gz
-  sha256: f62121b3d8722f76bf84b5ad43218a9faa504593c1bc94cdb948eaf0268aa301
+  sha256: dce3c0e2259de65143ac8d758ffbd8576c49b7627d5530b1e2a5925ef9e053b7
 
 build:
   number: 0
