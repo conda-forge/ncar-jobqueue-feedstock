@@ -22,11 +22,9 @@ requirements:
     - setuptools >=30.3.0
     - setuptools_scm
   run:
-    - dask-core >=2.14
-    - dask-jobqueue >=0.7.1
+    - dask-jobqueue >=0.7.2
     - jinja2
     - python >=3.6
-    - pyyaml
 
 test:
   imports:
