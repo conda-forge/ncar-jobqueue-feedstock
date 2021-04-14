@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ncar-jobqueue-feedstock/blob/master/LICENSE.txt)
 
-Summary: Utilities for expanding dask-jobqueue with appropriate settings for NCAR's clusters
+Summary: Utilities for configuring [dask-jobqueue](https://jobqueue.dask.org) with appropriate settings for NCAR clusters
 
 Current build status
 ====================
@@ -36,6 +36,7 @@ Installing `ncar-jobqueue` from the `conda-forge` channel can be achieved by add
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `ncar-jobqueue` can be installed with:
@@ -106,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
@@ -116,4 +117,5 @@ Feedstock Maintainers
 
 * [@andersy005](https://github.com/andersy005/)
 * [@matt-long](https://github.com/matt-long/)
+* [@mgrover1](https://github.com/mgrover1/)
 
